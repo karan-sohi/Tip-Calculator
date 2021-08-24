@@ -1,0 +1,92 @@
+body {
+    background-color: hsl(185, 41%, 84%);
+    font-family: 'Space Mono', monospace;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-weight: 700;
+}
+
+input {
+    margin: 0 10px;
+    width: 80%;
+    border-radius: 3px;
+    background-color: hsl(189, 41%, 97%);
+    padding: 6px;
+}
+
+button {
+    cursor: pointer;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;;
+    padding: 3px;
+    width: 25%;
+    height: 35px;
+    margin: 5px;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    margin: auto;
+    /* text-align: center; */
+    width: 50%;
+    margin-top: 50px;
+    display: flex;
+}
+
+.user {
+    /* background-color: azure; */
+    display: inline-block;
+    flex: 1;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    border-radius: 50px 5px 0 5px;
+}
+
+.output {
+    background-color:  hsl(183, 100%, 15%);
+    border-radius: 2vh;
+    flex: 1;
+    line-height: 0.4;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+    float: right;
+}
+
+.rightSection {
+    display: flex;
+}
+
+.leftHeading{
+    flex: 1
+}
+
+.rightHeading {
+    flex: 1;
+}
+
+.divButton {
+    margin: auto;
+    text-align: center;
+}
+
+.output button {
+    background-color: hsl(186, 14%, 43%);
+    width: 70%;
+    position: relative;
+    top: 60px;
+}
+
+#total-value {
+    position: relative;
+    top: 60px;
+}

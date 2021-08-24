@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  
+  <title>Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  <h1>SPLI</h1>
+  <h1>TTER</h1>
+
+  <div class="container">
+    <div class="user">
+      <p>Bill</p>
+      <input type="text" id="total" name="Bill" placeholder="$"><br>
+      <p>Select Tip %</p>
+      <button>5%</button>
+      <button>10%</button>
+      <button>15%</button><br>
+      <button>25%</button>
+      <button>50%</button>
+      <button>Custom</button>
+      
+      <p>Number of People</p>
+      <input type="text" id="people" name="Count" placeholder="$"><br>
+    </div>
+
+    <div class="output">
+      <div class="rightSection">
+        <div class="leftHeading">
+          <h5>Tip Amount</h5>
+          <h6>/person</h6>
+          <br><br>
+          <h5>Total</h5>
+          <h6>/Person</h6>
+        </div>
+        <div class="rightHeading">
+          <h1 id="tip-value">$0.00</h1>
+          <h1 id="total-value">$0.00</h1>
+        </div>
+      </div>
+      <div class="divButton">
+        <button>RESET</button>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
