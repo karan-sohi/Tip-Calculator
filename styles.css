@@ -32,6 +32,11 @@ button {
     margin: 5px;
 }
 
+button:hover {
+    background-color:hsl(185, 41%, 84%);
+    color: black;
+}
+
 .container {
     background-color: white;
     padding: 30px;
@@ -84,6 +89,11 @@ button {
     width: 70%;
     position: relative;
     top: 60px;
+}
+
+.output button:hover {
+    background-color: hsl(185, 41%, 84%);
+    color: black;
 }
 
 #total-value {

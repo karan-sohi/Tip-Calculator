@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js"></script>
   
   <title>Tip calculator app</title>
 
@@ -23,12 +24,12 @@
       <p>Bill</p>
       <input type="text" id="total" name="Bill" placeholder="$"><br>
       <p>Select Tip %</p>
-      <button>5%</button>
-      <button>10%</button>
-      <button>15%</button><br>
-      <button>25%</button>
-      <button>50%</button>
-      <button>Custom</button>
+      <button id="button1" value=5 onclick="tip_button(this.id)">5%</button>
+      <button id="button2" value=10 onclick="tip_button(this.id)">10%</button>
+      <button id="button3" value=15 onclick="tip_button(this.id)">15%</button><br>
+      <button id="button4" value=25 onclick="tip_button(this.id)">25%</button>
+      <button id="button5" value=50 onclick="tip_button(this.id)" >50%</button>
+      <button id="button6" onclick="tip_button(this.id)">Custom</button>
       
       <p>Number of People</p>
       <input type="text" id="people" name="Count" placeholder="$"><br>
@@ -49,7 +50,7 @@
         </div>
       </div>
       <div class="divButton">
-        <button>RESET</button>
+        <button class="resetButton" onclick = "myFunction()">RESET</button>
       </div>
     </div>
 
